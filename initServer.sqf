@@ -1,0 +1,1 @@
+[] execVM "Persistent\spawn_vehicles.sqf";

@@ -112,7 +112,7 @@ _vehicleArray =
 					_position = selectRandom (_x select 2);
 					_nearVehicles = nearestObjects [_position, ["car","air"], 10];
 					_nearVechicleCount = count _nearVehicles;
-					if (!(_position isEqualTo LastPosition) && (_nearVechicleCount == 0)) then
+					if (_nearVechicleCount == 0) then
 					{
 						_foundSafePos = true;
 					};

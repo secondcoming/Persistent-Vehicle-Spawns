@@ -14,6 +14,9 @@
 
 	This script accounts for ALL vehicles, purchased or other wise. So if players have bought vehicles, and those vehicles exceed the maximum defined number in tbe below array, the server wont spawn anymore.
 
+	Configure the _vehicleArray below
+	Adjust the safePos parameters line 132 - 138
+
 */
 
 uiSleep 30;
